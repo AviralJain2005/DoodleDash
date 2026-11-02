@@ -1,0 +1,20 @@
+/* Load Tailwind utilities used throughout the React components. */
+@import "tailwindcss";
+
+/* Define the display font used by the playful game headings. */
+@theme {
+  --font-display: "Comic Sans MS", "Chalkboard SE", sans-serif;
+}
+
+/* Remove browser default spacing and establish the app-wide canvas/page colors. */
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f8fafc;
+  color: #172033;
+}
+/* Keep controls consistent with the surrounding typography. */
+button,
+input {
+  font: inherit;
+}
